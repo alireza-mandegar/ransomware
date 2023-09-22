@@ -60,3 +60,18 @@ def decrypt():
         print(f"{S} Your files are decrypred!")
     else:
         print(f"{E} Wrong secret phrase!")
+
+def main():
+    opt = ""
+    while opt != "exit":
+        opt = menu()
+        if opt == "encrypt":
+            encrypt()
+        elif opt == "decrypt":
+            decrypt()
+        elif opt == "key":
+            key()
+        else:
+            print(f'{I} Enjoy your life!')
+
+main()
