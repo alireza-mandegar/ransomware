@@ -1,1 +1,5 @@
-This is a simple ransomware
+# This is a simple ransomware
+
+``` powershell
+cmd.exe echo
+```
